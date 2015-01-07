@@ -14,7 +14,7 @@ public class Truck {
 	}
 	
 	public Truck getNext(){
-		return nextTruck;
+		return this.nextTruck;
 	}
 	
 	@Override

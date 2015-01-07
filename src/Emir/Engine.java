@@ -1,6 +1,7 @@
 package Emir;
 
 public class Engine {
+	
 	private String name;
 	private Truck nextTruck;
 	
