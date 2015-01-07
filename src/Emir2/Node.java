@@ -22,5 +22,13 @@ public class Node {
 		public Object getValue (){
 			return value;
 		}
+
+
+		@Override
+		public String toString() {
+			return "Node [value=" + value.toString() + "]";
+		}
+		
+		
 		
 }
