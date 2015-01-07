@@ -25,7 +25,10 @@ public class Truck {
 	
 	@Override
 	public String toString(){
-		return ""+letter;
+		if(this.getNext() == null)  // If get.next is null object difrent toString method
+			return "["+letter +"]";
+		
+		return "["+letter +"]->";
 	}
 	
 }

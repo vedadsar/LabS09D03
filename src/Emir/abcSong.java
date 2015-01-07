@@ -37,9 +37,10 @@ public class abcSong {
 	public static void sing(Train abc){
 		Truck current = abc.getEngine().getFirst(); //Getting first truck in our train. First we get engine and then from engine we get first truck.
 		
+		System.out.print("[Start of train]->");
 		// Loop where we print all letters while our current truck is not null. That means that our truck is created object.
 		while(current != null){
-			System.out.print(current.toString() +" ");
+			System.out.print(current.toString() );
 			current = current.getNext();				// Moving counter to next truck.
 		}
 	}
